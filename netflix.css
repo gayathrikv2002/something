@@ -1,0 +1,183 @@
+*{
+  background-color:black;
+  color: white;
+  
+}
+
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: 
+      linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)),
+      url(bg.jpg);                                       
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  
+ 
+  .logo{
+    width: 5rem;
+    height: 2rem;
+    margin: 1rem;
+   }
+ 
+.navbar{
+    width: 100%;
+    display: flex;
+ justify-content: space-around;
+ background: transparent;
+ 
+}
+.text{
+    
+    display: flex;
+    align-items: center;
+}
+.content{
+    text-align: center;
+    background: transparent;
+    margin: 2rem;
+    line-height: 2rem;
+    margin-top: 5rem;
+}
+.movies{
+    width: 100%;
+
+    background-color: black;
+}
+h2{
+    padding-left: 5rem;
+    
+}
+.about{
+    background-color: black;
+}
+
+.card-body{
+  
+    background: linear-gradient(to bottom right,#120525,#3e022e);
+}
+.movies h2{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.accordion-header{
+  
+  padding: 1rem;
+
+}
+.footer{
+    text-align: center;
+    margin: 2rem;
+    line-height: 8rem;
+}
+table{
+    width: 100%;
+   margin: 2rem;
+   line-height: 2rem;
+  
+  
+}
+.responsive-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    grid-auto-rows: 1fr;
+  }
+  
+  
+ 
+ 
+  @media (min-width: 60em) {
+    .cards {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  .my-card {
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    background: linear-gradient(to bottom right,#040358c8,#300424);
+    color: white;
+   padding: 2em;
+   margin: 1rem;
+  }
+  
+
+@media  ( min-width:60em){
+    .responsive-list{
+        grid-template-columns: repeat(4, 1fr);
+    }
+  }
+@media  (min-width:60em){
+  .content{
+    line-height: 4rem;
+  }
+}
+
+@media  (min-width:60em){
+  h3{
+    font-size: 2rem;
+  }
+}
+
+@media  ( min-width:60em){
+  .logo{
+    width: 10rem;
+    height: 3rem;
+    margin: 2rem;
+  }
+}
+@media  (max-width:60em){
+  .header{
+    width: 100%;
+    height: 80vh;
+  }
+}
+
+@media  (max-width:20em){
+  .header{
+    width: 100%;
+    height: 90vh;
+  }
+  #btn2{
+    width: 80%;
+    margin-left: 5rem;
+
+}
+}
+@media  (max-width:40em){
+  .header{
+    width: 100%;
+    height: 70vh;
+ }
+ }
+
+@media  (max-width:50em){
+  .header{
+    width: 100%;
+    height: 80vh;
+  }
+}
+.top-10-banner {
+  width: 100%;
+  height: 7px;
+  overflow: hidden;
+}
+
+.top-10-banner svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
